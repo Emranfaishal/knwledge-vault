@@ -32,7 +32,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #000000;
 }
 
@@ -42,4 +42,55 @@ nav .btn {
     background-color: #30B868;
     border-radius: 4px;
     color: white;
+}
+
+/* banner tag  */
+.banner {
+    text-align: center;
+    padding: 200px 400px;
+    background-image: url("../assets/hero-bg.png");
+}
+
+.banner .bu1 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: #30B868;
+    padding: 6px;
+    border-radius: 100px;
+    border: none;
+}
+
+.banner h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.banner .bu2 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.banner .bu3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 16px;
+
 }
