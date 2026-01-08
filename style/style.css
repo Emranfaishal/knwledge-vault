@@ -36,7 +36,7 @@ nav ul li a {
     color: #000000;
 }
 
-nav .btn {
+.btn {
     padding: 12px 16px;
     border: none;
     background-color: #30B868;
@@ -92,5 +92,159 @@ nav .btn {
     border: none;
     border-radius: 4px;
     margin-left: 16px;
+}
 
+.notes {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.notes h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.notes p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.Scattered {
+    display: flex;
+    gap: 24px;
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-tag {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgb(248, 234, 234);
+    background: white;
+}
+
+.box-title img {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    margin-top: 60px;
+}
+
+.box-tag h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.box-tag p {
+    font-size: 16px;
+    font-weight: 300px;
+    color: #627382;
+    margin-bottom: 60px;
+}
+
+.brain {
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 86px;
+    display: flex;
+    margin-top: 120px;
+}
+
+.brain h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 120px;
+    margin-bottom: 16px;
+    color: #30B868;
+}
+
+.brain h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #3d464e;
+    margin-bottom: 16px;
+}
+
+.brain p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 26px;
+}
+
+.icon {
+    display: flex;
+    gap: 5px;
+}
+
+.icon p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.clearly {
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 60px;
+    background-color: rgba(250, 235, 215, 0.336);
+}
+
+.clearly h2 {
+    font-size: 40px;
+    font-weight: 700px;
+    color: #000000c1;
+    margin-bottom: 16px;
+}
+
+.clearly p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+footer {
+    background-color: #001931;
+    margin-top: 120px;
+}
+
+.footer-text {
+    width: 1360px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 60px;
+}
+
+.footer-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.img-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.all {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
 }
